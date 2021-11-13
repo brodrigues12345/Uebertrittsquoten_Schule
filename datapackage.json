@@ -1,32 +1,254 @@
 {
-  "name": "datapackage-boilerplate",
-  "title": "A Boilerplate Data Package",
-  "format": "csv",
-  "datapackage_version": "1.0.0",
-  "last_modified": "2018-01-01",
-  "licenses": [{
-    "name": "ODC-PDDL-1.0",
-    "path": "http://opendatacommons.org/licenses/pddl/",
-    "title": "Open Data Commons Public Domain Dedication and License v1.0"
-  }],
-  "sources": [
-    {
-      "name": "Sample Data Source",
-      "web": "http://www..."
-    }
-  ],
+  "profile": "tabular-data-package",
   "resources": [
     {
-      "path": "data/some-good-data.csv",
+      "name": "gymquote_kreis",
+      "path": "Gymquote_Kreis.csv",
+      "profile": "tabular-data-resource",
       "schema": {
-        "fields": []
+        "fields": [
+          {
+            "name": "Geo_ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Geo_Einheit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "T_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "M_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "W_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_P",
+            "type": "string",
+            "format": "default"
+          }
+        ]
       }
-    },{
-      "path": "data/the-raw-data.xls"
+    },
+    {
+      "name": "gymquote_kreis_wm",
+      "path": "Gymquote_Kreis_WM.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geo_ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_absolut",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sekquote_kreis",
+      "path": "Sekquote_Kreis.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geo_ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Geo_Einheit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "T_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "M_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "W_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_P",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "sekquote_spr",
+      "path": "Sekquote_Spr.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Spr_Einheit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "T_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "T_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "M_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "M_P",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "W_ProzentBasis",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_absolut",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "W_P",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      }
+    },
+    {
+      "name": "tas_angebot",
+      "path": "TAS_Angebot.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Geo_ID",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "Geo_Einheit",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "Zugang_TAS",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
     }
   ],
-  "maintainers":[{
-    "name": "School of Data CH",
-    "web": "https://www.schoolofdata.ch/"
-  }]
+  "name": "uebertrittsquoten-schulen",
+  "title": "Uebertrittsquoten Schulen",
+  "licenses": [
+    {
+      "name": "ODbL-1.0",
+      "title": "Open Data Commons Open Database License 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-odbl"
+    }
+  ]
 }
