@@ -1,0 +1,11 @@
+Geo_ID,Geo_Einheit,T_ProzentBasis,T_absolut,T_P,M_ProzentBasis,M_absolut,M_P,W_ProzentBasis,W_absolut,W_P
+ 241 , Jura bernois ,1659,319,19%,846,122,14%,813,199,24%
+ 242 ," Biel/Bienne, Kreis ",3079,629,20%,1570,275,18%,1509,352,23%
+ 243 ," Seeland, Bern ",2261,381,17%,1153,131,11%,1108,246,22%
+ 244 , Oberaargau ,2451,383,16%,1250,143,11%,1201,238,20%
+ 245 , Emmental ,2969,463,16%,1514,192,13%,1455,275,19%
+ 246 , Bern-Mittelland ,11128,2878,26%,5675,1190,21%,5453,1684,31%
+ 247 ," Thun, Kreis ",3005,469,16%,1533,179,12%,1472,291,20%
+ 248 , Obersimmental-Saanen ,443,40,9%,226,14,6.1%,217,27,12%
+ 249 , Frutigen-Niedersimmental ,1153,147,13%,588,65,11.1%,565,82,15%
+ 250 , Interlaken-Oberhasli ,1254,162,13%,640,54,8.4%,614,106,17%
